@@ -1,11 +1,5 @@
 # Physics-Based Compact Modeling of TiN/La₂NiO₄/Pt Memristive Devices
 
-> **Nouman Ahmad** — M1 Photonics Engineering, Université Jean Monnet  
-> Research Internship @ LMGP – Grenoble INP | April – July 2025  
-> Supervisors: Dr. Mónica Burriel (LMGP) · Dr. Aleksandra Koroleva (LMGP, TIMA)
-
----
-
 ## Overview
 
 This project develops a **SPICE-level physics-based compact model** for analog memristive devices based on the TiN/La₂NiO₄₊δ/Pt stack. The goal is to accurately simulate the resistive switching behavior of these devices for use in **neuromorphic computing** and **in-memory computation** architectures.
@@ -205,5 +199,4 @@ $$R_{plug/disc} = \frac{l_{plug/var}}{z_{V_O} \cdot e \cdot A \cdot N_{plug/disc
 
 **Nouman Ahmad**  
 M1 Photonics Engineering — Université Jean Monnet, Saint-Étienne  
-Research Intern — LMGP, Grenoble INP  
 [linkedin.com/in/nouman001ahmad](https://linkedin.com/in/nouman001ahmad)
