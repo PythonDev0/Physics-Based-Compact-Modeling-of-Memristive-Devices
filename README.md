@@ -88,38 +88,6 @@ I-V Analysis        (JART VCM v1b)       Optimization            Verilog-A      
 
 ---
 
-## Parameters
-
-### Primary Parameters (Optimized)
-
-| Symbol | Description | Optimized Value | Valid Range |
-|--------|-------------|-----------------|-------------|
-| `v.a` | Ion hopping distance | 0.38e-9 | 0.15 < v.a < 3.5 |
-| `v_0` | Attempt frequency | 2e13 | 2e13 < v_0 < 50e13 |
-| `delta_WA` | Activation energy | 0.88 | 0.71 < WA < 0.99 |
-| `phi_bn0` | Schottky barrier | 0.39 | 0.1 < phi < 0.39 |
-| `mu_n` | Electron mobility | 5e-6 | 1e-6 < mu_n < 1e-1 |
-| `R_TiOx` | Series resistance | 590 Ω | 100 < R < 1500 |
-| `R_0` | Contact line resistance | 67 Ω | 10 < R_0 < 250 |
-| `R_th_eff_SET` | Thermal resistance (SET) | 1.5e4 | 1e3 < R < 5e5 |
-| `R_th_eff_RESET` | Thermal resistance (RESET) | 5e4 | 1e4 < R < 50e4 |
-| `v.N_min` | Min vacancy concentration in disc | 1e24 | 1e24 < N < 4e24 |
-| `v.N_max` | Max vacancy concentration in disc | 5e26 | 4e25 < N < 6e27 |
-| `v.N_plug_init` | Initial plug concentration | 2e26 | constant |
-| `v.N_disc_init` | Initial disc concentration | 4e24 | 7e23 < N < 3e25 |
-| `v.beta` | Limiting factor | 10 | 1 < beta < 30 |
-| `v.T_0` | Ambient temperature | 293 K | constant |
-
-### Fixed Geometric Parameters
-
-| Symbol | Description | Value |
-|--------|-------------|-------|
-| `v.r_fil` | Filament radius | 200e-9 m |
-| `v.l_disc` | Disc thickness | 3e-9 m |
-| `v.l_plug` | Plug length | 30e-9 m |
-
----
-
 ## Key Results
 
 After iterative optimization of all 15 primary parameters, the simulated I-V curve converges toward the experimental TiN/La₂NiO₄/Pt data:
