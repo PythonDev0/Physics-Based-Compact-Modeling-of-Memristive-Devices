@@ -7,8 +7,6 @@
 % generates I-V and resistance plots.
 %
 % Author  : Nouman Ahmad
-% Lab     : LMGP – Grenoble INP
-% Date    : April–July 2025
 % ─────────────────────────────────────────────────────────────
 
 clear; clc; close all;
