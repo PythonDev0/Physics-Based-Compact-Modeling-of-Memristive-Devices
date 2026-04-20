@@ -6,8 +6,6 @@
 %   - Base JART model I-V
 %   - Optimized TiN/La2NiO4/Pt model I-V
 %
-% Author  : Nouman Ahmad
-% Lab     : LMGP – Grenoble INP
 % ─────────────────────────────────────────────────────────────
 
 function plot_iv_curves(V_sweep, I_simulated, I_experimental)
