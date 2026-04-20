@@ -3,9 +3,7 @@
 % Plots Disc, Schottky, Plug, and Series resistance vs time.
 % Used to verify correct HRS/LRS switching behavior during
 % SET and RESET cycles.
-%
-% Author  : Nouman Ahmad
-% Lab     : LMGP – Grenoble INP
+
 % ─────────────────────────────────────────────────────────────
 
 function plot_resistance(t, R_schottky, R_disc, R_plug, R_series)
