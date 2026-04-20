@@ -1,0 +1,22 @@
+# MATLAB
+*.asv
+*.m~
+*.mex*
+octave-workspace
+
+# Generated figures
+results/*.png
+results/*.fig
+results/*.pdf
+
+# Experimental data (may be confidential)
+data/*.mat
+data/*.csv
+
+# Keep folder structure
+!results/README.md
+!data/README.md
+
+# OS
+.DS_Store
+Thumbs.db
