@@ -13,7 +13,6 @@ function v = parameter_optimization()
 %   4. Inter-parameter logic  — values are physically consistent
 %
 % Author  : Nouman Ahmad
-% Lab     : LMGP – Grenoble INP
 % Ref     : Bengel et al., IEEE TCAS-I, 2020
 % ─────────────────────────────────────────────────────────────
 
